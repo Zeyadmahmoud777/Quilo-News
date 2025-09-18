@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard - Add News</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f9;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    textarea {
+      height: 80px;
+      resize: vertical;
+    }
+    button {
+      padding: 10px 15px;
+      border: none;
+      background: #007bff;
+      color: white;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    pre {
+      background: #222;
+      color: #0f0;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>📰 Add News</h1>
+
+  <div class="form-group">
+    <label>ID</label>
+    <input type="number" id="id">
+  </div>
+
+  <div class="form-group">
+    <label>Title</label>
+    <input type="text" id="title">
+  </div>
+
+  <div class="form-group">
+    <label>Date</label>
+    <input type="date" id="date">
+  </div>
+
+  <div class="form-group">
+    <label>Link (e.g., article.html?id=ID)</label>
+    <input type="text" id="link">
+  </div>
+
+  <div class="form-group">
+    <label>Image One</label>
+    <input type="text" id="image_one">
+  </div>
+  <div class="form-group">
+    <label>Content One</label>
+    <input type="text" id="content_one">
+  </div>
+  <div class="form-group">
+    <label>Content One Paragraph</label>
+    <textarea id="content_one_p"></textarea>
+  </div>
+
+  <div class="form-group">
+    <label>Image Two</label>
+    <input type="text" id="image_two">
+  </div>
+  <div class="form-group">
+    <label>Content Two</label>
+    <input type="text" id="content_two">
+  </div>
+  <div class="form-group">
+    <label>Content Two Paragraph</label>
+    <textarea id="content_two_p"></textarea>
+  </div>
+
+  <div class="form-group">
+    <label>Image Three</label>
+    <input type="text" id="image_three">
+  </div>
+  <div class="form-group">
+    <label>Content Three</label>
+    <input type="text" id="content_three">
+  </div>
+  <div class="form-group">
+    <label>Content Three Paragraph</label>
+    <textarea id="content_three_p"></textarea>
+  </div>
+
+  <button onclick="generateJSON()">توليد JSON</button>
+
+  <pre id="output"></pre>
+
+  <script>
+    function generateJSON() {
+      const news = {
+        id: parseInt(document.getElementById('id').value),
+        title: document.getElementById('title').value,
+        link: document.getElementById('link').value,
+        date: document.getElementById('date').value,
+        image_one: document.getElementById('image_one').value,
+        content_one: document.getElementById('content_one').value,
+        content_one_p: document.getElementById('content_one_p').value,
+        image_two: document.getElementById('image_two').value,
+        content_two: document.getElementById('content_two').value,
+        content_two_p: document.getElementById('content_two_p').value,
+        image_three: document.getElementById('image_three').value,
+        content_three: document.getElementById('content_three').value,
+        content_three_p: document.getElementById('content_three_p').value
+      };
+
+      document.getElementById('output').textContent = JSON.stringify(news, null, 2);
+    }
+  </script>
+</body>
+</html>
