@@ -27,8 +27,8 @@
     <div class="article-header" id="article-media"></div>
     <div class="article-content">
       <h1 id="article-title"></h1>
-      <div class="article-meta" id="article-date"></div>
-      <p id="article-body"></p>
+      <div class="article-meta" id="article-body"></div>
+      <p id="article-date"></p>
     </div>
     </article>
     <aside id="sidebar">
@@ -43,58 +43,65 @@
     <p>&copy; 2025 Quilo News. All Rights Reserved.</p>
   </footer>
 
-  <script>
-   const params = new URLSearchParams(window.location.search);
-      const articleId = parseInt(params.get("id")); 
+ <script>
+  const params = new URLSearchParams(window.location.search);
+  const articleId = parseInt(params.get("id")); 
 
   async function loadNews() {
     try {
       const response = await fetch("News.json");
       const data = await response.json();
   
+      // هات المقال اللي id بتاعه زي اللي في الرابط
       const article = data.find(item => item.id === articleId);
       if (!article) {
         document.getElementById("article-title").innerText = "Article not found!";
         return;
       }
-    const res = await fetch("News.json");
-    const news = await res.json();
-    const sortedNews = news;
 
-    document.getElementById("article-title").innerText = article.title;
+      // حط البيانات في الصفحة
+      document.getElementById("article-title").innerText = article.title;
 
-    document.getElementById("article-body").innerHTML = `
-    <h3>${article.content_one}</h3>
-    <img loading="lazy" src="${article.image_one}" alt="${article.title}">
-    <p>${article.content_one_p}</p>
-    <div class="ad"></div>
-    <h3>${article.content_two}</h3>
-  <img loading="lazy" src="${article.image_two}" alt="${article.title}">
-    <p>${article.content_two_p}</p>
-    <div class="ad"></div>
-    <h3>${article.content_three}</h3>
-  <img loading="lazy" src="${article.image_three}" alt="${article.title}">
-    <p>${article.content_three_p}</p>
+      document.getElementById("article-body").innerHTML = `
+        <h3>${article.content_one}</h3>
+        <img loading="lazy" src="${article.image_one}" alt="${article.title}">
+        <p>${article.content_one_p}</p>
         <div class="ad"></div>
-  `;
-    const date = new Date(article.date);
-    document.getElementById("article-date").innerText = date.toDateString();
-
-    const mediaContainer = document.getElementById("article-media");
-    if (article.video) {
-      mediaContainer.innerHTML = `
-        <div class="video-container">
-          <iframe src="${article.video}" allowfullscreen></iframe>
-        </div>
+        
+        <h3>${article.content_two}</h3>
+        <img loading="lazy" src="${article.image_two}" alt="${article.title}">
+        <p>${article.content_two_p}</p>
+        <div class="ad"></div>
+        
+        <h3>${article.content_three}</h3>
+        <img loading="lazy" src="${article.image_three}" alt="${article.title}">
+        <p>${article.content_three_p}</p>
+        <div class="ad"></div>
       `;
+
+      // التاريخ
+      const date = new Date(article.date);
+      document.getElementById("article-date").innerText = date.toDateString();
+
+      // الفيديو (لو موجود)
+      const mediaContainer = document.getElementById("article-media");
+      if (article.video) {
+        mediaContainer.innerHTML = `
+          <div class="video-container">
+            <iframe src="${article.video}" allowfullscreen></iframe>
+          </div>
+        `;
+      }
+
+    } catch (err) {
+      console.error("Error loading article:", err);
     }
-  } catch (err) {
-    console.error("Error loading article:", err);
   }
-}
 
+  // لازم تستدعيه هنا
+  loadNews();
+</script>
 
-  </script>
   <script src="main.js"></script>
 </body>
 </html>
