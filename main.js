@@ -12,15 +12,15 @@ async function loadNews() {
     <h3>${mainArticle.content_one}</h3>
     <img loading="lazy" src="${mainArticle.image_one}" alt="${mainArticle.title}">
     <p>${mainArticle.content_one_p}</p>
-    <div class="ad">Ad Space 728x90</div>
+    <div class="ad"></div>
     <h3>${mainArticle.content_two}</h3>
   <img loading="lazy" src="${mainArticle.image_two}" alt="${mainArticle.title}">
     <p>${mainArticle.content_two_p}</p>
-    <div class="ad">Ad Space 728x90</div>
+    <div class="ad"></div>
     <h3>${mainArticle.content_three}</h3>
   <img loading="lazy" src="${mainArticle.image_three}" alt="${mainArticle.title}">
     <p>${mainArticle.content_three_p}</p>
-        <div class="ad">Ad Space 728x90</div>
+        <div class="ad"></div>
   `;
 
    const boxes = document.querySelector(".more-boxes");
@@ -69,7 +69,7 @@ async function loadNewse() {
   });
 
   const sideBarboxe = document.querySelector(".boxe");
-  sideBarboxe.innerHTML += `<div><a href="#">Box</a></div>`
+  sideBarboxe.innerHTML += `<div><a href="#"></a></div>`
 
 }
 loadNewse();
