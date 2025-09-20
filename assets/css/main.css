@@ -160,27 +160,9 @@
       font-size: 14px;
       color: #666;
     }
-
-    /*bvefore*/
-.ad{
-    padding: 10px;
-    width: 97%;
-    background-color: #444;
-    border-radius: 7px;
-    height: 200px;
-    margin-bottom: 35px;
-    margin-top: 50px;
-}
 .box h3{
   padding-left: 5px;
 }
-.boxe{
-  background-color: gray;
-    width: 279px;
-    height: 300px;
-}
-
-
     footer {
       background: #111;
       color: #fff;

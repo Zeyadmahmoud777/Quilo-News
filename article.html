@@ -5,19 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Article | MyNews</title>
   <link rel="stylesheet" href="assets/css/main.css">
-  <link rel="stylesheet" href="assets/css/artical.css">
-  <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header>
     <nav>
       <a href="create.html" class="logo">Quilo News</a>
-      <div>
+      <div class="dro">
         <a href="index.html">Home</a>
-        <a href="#">World</a>
-        <a href="#">Tech</a>
-        <a href="#">Sports</a>
-        <a href="#">Contact</a>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </div>
     </nav>
   </header>
@@ -38,20 +35,17 @@
       <div id="sidebar-links"></div>
       <div class="ads"></div>
       <div class="boxe"></div>
-      <!-- Ads and side content -->
     </aside>
   </main>
 
   <footer>
-    <p>&copy; 2025 Quilo News. All Rights Reserved.</p>
+    <p>&copy; 2025 MyNews. All Rights Reserved.</p>
   </footer>
-<script src="News.json"></script>
-  <script>
-    // Get article ID from URL (e.g., article.html?id=2)
-   const params = new URLSearchParams(window.location.search);
-      const articleId = parseInt(params.get("id")); // نجيب ID
 
-// async function loadArticle() {
+  <script>
+   const params = new URLSearchParams(window.location.search);
+      const articleId = parseInt(params.get("id")); 
+
   async function loadNews() {
     try {
       const response = await fetch("News.json");
@@ -122,8 +116,9 @@ async function loadNewse() {
   }
 loadNewse();
 
-// loadArticle();
   </script>
-
+  <script src="assets/js/main.js"></script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token": "bmlvaAng9LFVexsCJTcOtHuOEEevTUahWNA3uPtz"}'></script>
 </body>
 </html>
