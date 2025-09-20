@@ -67,15 +67,15 @@
     <h3>${article.content_one}</h3>
     <img loading="lazy" src="${article.image_one}" alt="${article.title}">
     <p>${article.content_one_p}</p>
-    <div class="ad">Ad Space 728x90</div>
+    <div class="ad"></div>
     <h3>${article.content_two}</h3>
   <img loading="lazy" src="${article.image_two}" alt="${article.title}">
     <p>${article.content_two_p}</p>
-    <div class="ad">Ad Space 728x90</div>
+    <div class="ad"></div>
     <h3>${article.content_three}</h3>
   <img loading="lazy" src="${article.image_three}" alt="${article.title}">
     <p>${article.content_three_p}</p>
-        <div class="ad">Ad Space 728x90</div>
+        <div class="ad"></div>
   `;
     const date = new Date(article.date);
     document.getElementById("article-date").innerText = date.toDateString();
@@ -89,8 +89,11 @@
       `;
     }
   } catch (err) {
+    console.error("Error loading article:", err);
   }
 }
+
+
   </script>
   <script src="main.js"></script>
 </body>
