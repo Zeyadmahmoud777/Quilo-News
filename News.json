@@ -129,19 +129,20 @@
   },
   {
     "id": 11,
-    "title": "Global Markets Show Strong Recoveryy",
-    "link": "article.html?id=11",
-    "date": "2025-09-05",
-    "image_one": "assets/images/latter/la2.jpg",
-    "content_one": "Tech Giants",
-    "content_one_p": "Tech Giants is the most ting,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_two": "assets/images/news/n4.jpg",
-    "content_two": "Release New",
-    "content_two_p": "Release New is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_three": "assets/images/news/n1.jpg",
-    "content_three": "AI Tools",
-    "content_three_p": "AI Tools is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos."
-
+    "title": "U.S. Judge Approves $1.5B Settlement in Anthropic Copyright Dispute",
+    "link": "articals/article-3.html",
+    "date": "2025-09-25",
+    "meta_description": "A U.S. federal judge has preliminarily approved a $1.5 billion settlement between AI company Anthropic and authors who accused it of illegally using copyrighted books to train its AI model.",
+    "keywords": "Anthropic, copyright, AI settlement, authors’ rights, AI training data, intellectual property",
+    "image_one": "https://1001lakes.com/wp-content/uploads/Firefly-A-scale-with-one-side-featuring-copyright-symbols-and-the-other-side-featuring-symbols-repre.jpg",
+    "content_one": "Landmark Settlement in AI Copyright Battle",
+    "content_one_p": "A federal judge in California has granted preliminary approval to a $1.5 billion settlement between AI firm Anthropic and a coalition of authors and publishers. The plaintiffs alleged that Anthropic used more than 465,000 books from pirate sites without permission to train its Claude AI model. The judge, William Alsup, described the deal as “fair, reasonable, and adequate” while acknowledging the difficulty of distributing funds to all eligible claimants. ",
+    "image_two": "https://thumbs.dreamstime.com/b/ai-trading-stock-analysis-financial-charts-revenue-tracking-ai-trading-stock-analysis-financial-charts-revenue-tracking-388480710.jpg",
+    "content_two": "How the Payment and Claims Are Structured",
+    "content_two_p": "Under the agreement, authors and publishers would receive approximately $3,000 per book included in the settlement. Anthropic also agreed to destroy the allegedly illicit data sets. In the lead-up to approval, Judge Alsup had raised concerns about how the claims process would reach all parties fairly—especially lesser-known authors—and requested clearer dissemination plans and transparency in how awards would be split. ",
+    "image_three": "https://www.imd.org/wp-content/uploads/2024/09/AdobeStock_756657459-1440x960.jpg",
+    "content_three": "Broader Implications for AI and Copyright",
+    "content_three_p": "This settlement marks one of the first major victories for authors in the ongoing legal battles over AI training and intellectual property. It signals to AI companies (OpenAI, Meta, etc.) that large-scale use of copyrighted content without proper licensing can incur enormous financial risk. The decision also propels conversations about how AI systems should source their training data ethically and legally. "
   },
   {
     "id": 12,
