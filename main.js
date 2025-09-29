@@ -1,5 +1,5 @@
 async function loadNewse() {
-  const res = await fetch("News.json");
+  const res = await fetch("data/News.json");
   const news = await res.json();
 
   const sortedNews = news.sort((a, b) => b.id - a.id);
