@@ -1,136 +1,9 @@
 [
-  {
-    "id": 8,
-    "title": "Tech Giants Release New AI Tools",
-    "link": "article.html?id=8",
-    "date": "2025-09-01",
-    "image_one": "assets/images/news/n1.jpg",
-    "content_one": "Tech Giants",
-    "content_one_p": "Tech Giants is the most ting,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_two": "assets/images/news/n2.jpg",
-    "content_two": "Release New",
-    "content_two_p": "Release New is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_three": "assets/images/news/n3.jpg",
-    "content_three": "AI Tools",
-    "content_three_p": "AI Tools is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos."
-  },
-  {
-    "id": 2,
-    "title": "Global Markets Show Strong Recovery",
-    "link": "article.html?id=2",
-    "date": "2025-09-05",
-    "image_one": "assets/images/news/n1.jpg",
-    "content_one": "Tech Giants",
-    "content_one_p": "Tech Giants is the most ting,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_two": "assets/images/news/n2.jpg",
-    "content_two": "Release New",
-    "content_two_p": "Release New is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_three": "assets/images/news/n3.jpg",
-    "content_three": "AI Tools",
-    "content_three_p": "AI Tools is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos."
-
-  },
-  {
-    "id": 3,
-    "title": "Scientists Discover Water on Exoplanet",
-    "link": "article.html?id=3",
-    "date": "2025-09-07",
-    "image_one": "assets/images/news/n1.jpg",
-    "content_one": "Tech Giants",
-    "content_one_p": "Tech Giants is the most ting,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_two": "assets/images/news/n2.jpg",
-    "content_two": "Release New",
-    "content_two_p": "Release New is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_three": "assets/images/news/n3.jpg",
-    "content_three": "AI Tools",
-    "content_three_p": "AI Tools is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos."
-
-  },
-  {
-    "id": 4,
-    "title": "Breakthrough in Cancer Treatment",
-    "link": "article.html?id=4",
-    "date": "2025-09-10",
-    "image_one": "assets/images/news/n2.jpg",
-    "content_one": "Tech Giants",
-    "content_one_p": "Tech Giants is the most ting,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_two": "assets/images/news/n2.jpg",
-    "content_two": "Release New",
-    "content_two_p": "Release New is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_three": "assets/images/news/n3.jpg",
-    "content_three": "AI Tools",
-    "content_three_p": "AI Tools is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos."
-
-  },
-  {
-    "id": 5,
-    "title": "New Electric Car Sets Speed Record",
-    "link": "article.html?id=5",
-    "date": "2025-09-14",
-    "image_one": "assets/images/news/n4.jpg",
-    "content_one": "Tech Giants",
-    "content_one_p": "Tech Giants is the most ting,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_two": "assets/images/news/n2.jpg",
-    "content_two": "Release New",
-    "content_two_p": "Release New is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_three": "assets/images/news/n3.jpg",
-    "content_three": "AI Tools",
-    "content_three_p": "AI Tools is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos."
-
-  },
-  
-  {
-    "id": 6,
-    "title": "New eeElectric Car Sets Speed Record",
-    "link": "article.html?id=6",
-    "date": "2025-09-18",
-    "image_one": "assets/images/news/n3.jpg",
-    "content_one": "Tech Giants",
-    "content_one_p": "Tech Giants is the most ting,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_two": "assets/images/news/n2.jpg",
-    "content_two": "Release New",
-    "content_two_p": "Release New is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_three": "assets/images/news/n3.jpg",
-    "content_three": "AI Tools",
-    "content_three_p": "AI Tools is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos."
-  }
-  ,
-  {
-    "id": 9,
-    "title": "Global Markets Show Strong Recovery",
-    "link": "article.html?id=9",
-    "date": "2025-09-05",
-    "image_one": "assets/images/latter/la1.jpg",
-    "content_one": "Tech Giants",
-    "content_one_p": "Tech Giants is the most ting,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_two": "assets/images/news/n2.jpg",
-    "content_two": "Release New",
-    "content_two_p": "Release New is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_three": "assets/images/news/n3.jpg",
-    "content_three": "AI Tools",
-    "content_three_p": "AI Tools is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos."
-
-  },
-  {
-    "id": 10,
-    "title": "Global Markets Show Strong Recovery",
-    "link": "article.html?id=10",
-    "date": "2025-09-05",
-    "image_one": "assets/images/latter/la2.jpg",
-    "content_one": "Tech Giants",
-    "content_one_p": "Tech Giants is the most ting,Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_two": "assets/images/news/n2.jpg",
-    "content_two": "Release New",
-    "content_two_p": "Release New is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos.",
-    "image_three": "assets/images/news/n3.jpg",
-    "content_three": "AI Tools",
-    "content_three_p": "AI Tools is the ost thing, Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, repellat nihil blanditiis dolorum est quidem corrupti, vero minima excepturi neque vel voluptas odio ex, ad nulla iusto reiciendis repellendus inventore provident veniam rem voluptate! Aliquam, incidunt voluptate minus voluptates accusantium aut et ducimus, atque facere dignissimos at odio rerum, quas soluta libero perferendis quod eos."
-
-  },
+ 
   {
     "id": 11,
     "title": "U.S. Judge Approves $1.5B Settlement in Anthropic Copyright Dispute",
-    "link": "articals/article-3.html",
+    "link": "articals/article-11.html",
     "date": "2025-09-25",
     "meta_description": "A U.S. federal judge has preliminarily approved a $1.5 billion settlement between AI company Anthropic and authors who accused it of illegally using copyrighted books to train its AI model.",
     "keywords": "Anthropic, copyright, AI settlement, authors’ rights, AI training data, intellectual property",
@@ -147,7 +20,7 @@
   {
     "id": 12,
     "title": "U.S. Government Approves Meta’s Llama AI for Federal Use",
-    "link": "articals/article-2.html",
+    "link": "articals/article-12.html",
     "date": "2025-09-22",
     "meta_description": "Meta’s AI model “Llama” gets approved for use by U.S. federal agencies, signaling growing trust in open AI systems within government sectors.",
     "keywords": "Meta, Llama, AI model, U.S. government, open AI, artificial intelligence, regulation",
@@ -164,7 +37,7 @@
   {
     "id": 13,
     "title": "OpenAI Releases the New ChatGPT: A Major Leap in Artificial Intelligence",
-    "link": "articals/article-1.html",
+    "link": "articals/article-13.html",
     "date": "2025-09-28",
     "meta_description": "OpenAI has launched a new version of ChatGPT with advanced capabilities that could redefine the future of work, education, and human–AI collaboration.",
     "keywords": "AI, ChatGPT, OpenAI, Artificial Intelligence, Future of Work, AI Education, GPT-5, Machine Learning, Technology Trends",
@@ -177,6 +50,40 @@
     "image_three": "https://rollingout.com/wp-content/uploads/2025/09/shutterstock_2500976757-1024x576.jpg",
     "content_three": "Looking Ahead: What This Means for the Future",
     "content_three_p": "The launch of the new ChatGPT is not just a technical update—it represents a strategic milestone in the evolution of artificial intelligence. By pushing the limits of natural language processing, OpenAI is setting the stage for a future where human–AI interactions become seamless and intuitive. As global adoption increases, businesses, schools, and individuals will find themselves relying more heavily on intelligent systems to handle both routine and complex tasks. The release of this model is widely regarded as a turning point that could redefine our relationship with machines for decades to come."
+  },
+  {
+    "id": 14,
+    "title": "How Artificial Intelligence is Revolutionizing Healthcare in 2025",
+    "link": "articals/article-14.html",
+    "date": "2025-09-29",
+    "meta_description": "Artificial intelligence is transforming healthcare in 2025 with faster diagnoses, personalized treatments, and advanced robotics, while also raising ethical challenges.",
+    "keywords": "AI in healthcare, medical AI, personalized treatment, healthcare innovation, AI diagnosis, medical technology 2025",
+    "image_one": "https://pmlive.com/wp-content/uploads/2025/04/AI-in-healthcare.jpeg",
+    "content_one": "AI for Faster and Smarter Diagnoses",
+    "content_one_p": "In 2025, artificial intelligence systems are becoming central to the way doctors identify and treat diseases. AI-powered diagnostic tools can now analyze X-rays, CT scans, and MRI results within seconds. For example, studies show AI can detect lung cancer nodules with over 95% accuracy, sometimes catching what human radiologists miss. These tools are also being deployed in rural hospitals where access to expert doctors is limited, giving patients quicker and more reliable diagnoses. Moreover, AI chatbots are helping patients describe symptoms and connect them with the right specialists, making healthcare more efficient.",
+    "image_two": "https://itsoli.ai/wp-content/uploads/2024/09/itsoli.ai-blogs-13.png",
+    "content_two": "Personalized Medicine Powered by AI",
+    "content_two_p": "One of the biggest breakthroughs in 2025 is the rise of personalized medicine. By analyzing a patient’s genetic data, lifestyle, and even wearable device records, AI can recommend customized treatment plans. For instance, cancer patients can now receive drugs tailored to their genetic makeup, increasing the chances of recovery and reducing side effects. AI is also being used to predict potential health risks before symptoms appear. For example, wearable devices connected to AI platforms can alert patients to irregular heart rhythms or early signs of diabetes, allowing for prevention instead of just treatment.",
+    "image_three": "https://www.market-prospects.com/storage/images/1200675ai.jpg",
+    "content_three": "Challenges, Ethics, and the Future of AI in Healthcare",
+    "content_three_p": "While the benefits of AI in medicine are clear, experts warn about serious challenges. Data privacy remains a top concern, as sensitive patient information could be misused if not protected properly. There is also the issue of algorithm bias—AI systems trained on limited or biased data may produce inaccurate results, especially for minority groups. Governments and medical organizations are now working on strict regulations to ensure AI is safe, ethical, and trustworthy. Looking ahead, many predict that AI will not replace doctors, but instead empower them with better tools, making healthcare more accessible and effective than ever before."
+  },
+  {
+    "id": 15,
+    "title": "AI-Powered Classrooms Are Going Mainstream in 2025",
+    "link": "articals/article-15.html",
+    "date": "2025-09-30",
+    "meta_description": "AI-driven learning tools are now entering classrooms worldwide, promising personalized instruction and smarter assessments.",
+    "keywords": "AI in education, smart classrooms, personalized learning, edtech, AI assessment, future of education",
+    "image_one": "https://teachfind.com/wp-content/uploads/2025/02/ai-learning-classroom-innovation.jpeg",
+    "content_one": "Bringing Personalized Learning to Every Student",
+    "content_one_p": "Starting in 2025, schools and universities across the globe are adopting AI-powered educational platforms. These systems analyze each student’s learning history, strengths, and weaknesses, and tailor lessons accordingly. Instead of one-size-fits-all teaching, students might receive distinct exercises and content aligned specifically to their pace and style. Early pilots in the U.S., UAE, and South Korea report that students using AI platforms improved test scores by up to 20%, particularly in math and science subjects.",
+    "image_two": "https://dce.harvard.edu/wp-content/uploads/sites/8/2024/05/AI.jpg",
+    "content_two": "Smarter Testing, Instant Feedback",
+    "content_two_p": "One of the biggest changes is in how assessments are handled. AI can grade short answers, quizzes, and even essays using natural language processing, providing instant feedback on style, grammar, and content quality. Teachers who used AI grading tools say they save up to 60% of time spent on grading, redirecting that time toward planning and student support. At some schools, AI bots are even giving hints or explanations to students when they make mistakes.",
+    "image_three": "https://www.facilitiesnet.com/resources/editorial/2023/technology-people-concept-man-use-ai-sstock_2245159551.jpg",
+    "content_three": "Challenges and Ethical Considerations",
+    "content_three_p": "Despite the promise, integrating AI into classrooms raises issues around bias, data privacy, and equity. Algorithms may favor students whose data aligns better with training sets, unintentionally disadvantaging minorities. Schools must safeguard student data, ensure transparency, and maintain human oversight. Going forward, many educators see AI as an assistant—not a replacement—for teachers."
   }
   
 ]

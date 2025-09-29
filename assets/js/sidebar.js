@@ -1,37 +1,54 @@
 async function loadSidebarNews() {
-  try {
-    // هات البيانات من ملف الجيسون
-    const res = await fetch("../data/News.json");
-    const news = await res.json();
+  const possiblePaths = [
+    "data/News.json",       // لو الصفحة في الـ root
+    "../data/News.json",    // لو الصفحة جوه فولدر articles/
+    "../../data/News.json"  // لو في فولدر أعمق
+  ];
 
-    // استخرج الـ id بتاع المقال الحالي من الرابط
-    const params = new URLSearchParams(window.location.search);
-    const currentId = parseInt(params.get("id"));
-
-    // شيل المقال الحالي من القائمة
-    const otherNews = news.filter(article => article.id !== currentId);
-
-    // هات آخر 4 أخبار
-    const latestFour = otherNews.slice(0, 4);
-
-    // مكان السايد بار
-    const sidebarLinks = document.getElementById("sidebar-links");
-    sidebarLinks.innerHTML = "";
-
-    latestFour.forEach(article => {
-      sidebarLinks.innerHTML += `
-        <li>
-          <div class="boxsid">
-            <a href="articals/article.html?id=${article.id}">
-              <img class="sideimg" loading="lazy" src="${article.image_one}" alt="${article.title}">
-              <p class="sidetext">${article.title.substring(0, 80)}</p>
-            </a>
-          </div>
-        </li>`;
-    });
-  } catch (err) {
-    console.error("Error loading sidebar news:", err);
+  let news = null;
+  for (const path of possiblePaths) {
+    try {
+      const res = await fetch(path);
+      if (res.ok) {
+        news = await res.json();
+        break;
+      }
+    } catch (e) {
+      // جرب المسار اللي بعده
+    }
   }
+
+  if (!news) {
+    console.error("❌ Couldn't load News.json from any path!");
+    return;
+  }
+
+  // استخرج الـ id بتاع المقال الحالي (من اسم الملف)
+  const currentFile = window.location.pathname.split("/").pop(); 
+  const currentId = parseInt(currentFile.replace("article-", "").replace(".html", ""));
+
+  // شيل المقال الحالي
+  const otherNews = news.filter(article => article.id !== currentId);
+
+  // هات 4 أخبار (من الأحدث)
+  const latestFour = otherNews.slice(0, 10);
+
+  // مكان السايد بار
+  const sidebarLinks = document.getElementById("sidebar-links");
+  if (!sidebarLinks) return;
+
+  sidebarLinks.innerHTML = "";
+  latestFour.forEach(article => {
+    sidebarLinks.innerHTML += `
+      <li>
+        <div class="boxsid">
+          <a href="article-${article.id}.html">
+            <img class="sideimg" loading="lazy" src="${article.image_one}" alt="${article.title}">
+            <p class="sidetext">${article.title.substring(0, 80)}</p>
+          </a>
+        </div>
+      </li>`;
+  });
 }
 
 // نفّذ السكريبت
