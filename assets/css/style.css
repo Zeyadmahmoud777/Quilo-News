@@ -41,7 +41,15 @@
     .article-header {
       position: relative;
     }
-
+    .date{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    }
+    .date em{
+      font-size: 14px;
+      color: #1a1a1ac2;
+    }
     .article-header img {
       width: 100px;
       height: 400px;
