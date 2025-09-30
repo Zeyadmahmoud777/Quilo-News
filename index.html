@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Quilo News</title>
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
-<meta name="google-site-verification" content="nAH_Rn6pB0cJaAhiIqVQA3K1ZFslLZCrWyAYDqdGWmU" /></head>
+  <meta name="google-site-verification" content="nAH_Rn6pB0cJaAhiIqVQA3K1ZFslLZCrWyAYDqdGWmU" />
+</head>
 <meta property="og:title" content="Quilo News The simpel News">
 <meta property="og:image" content="https://zeyadmahmoud777.github.io/Quilo-News/images/logo.jpg">
 <meta property="og:url" content="https://zeyadmahmoud777.github.io/Quilo-News/">
-  <meta name="description" content="Stay updated with the latest news in AI, education, and global trends. Explore insightful articles and trending updates from around the world.">
-  <meta name="keywords" content="AI news, education updates, world news, technology, latest articles"> 
-  <meta name="author" content="Quilo News">
-  <meta property="og:title" content="Quilo News - Latest AI, Education & World Updates">
-  <meta property="og:description" content="Stay updated with the latest news in AI, education, and global trends.">
-  <meta property="og:type" content="website">
+<meta name="description"
+  content="Stay updated with the latest news in AI, education, and global trends. Explore insightful articles and trending updates from around the world.">
+<meta name="keywords" content="AI news, education updates, world news, technology, latest articles">
+<meta name="author" content="Quilo News">
+<meta property="og:title" content="Quilo News - Latest AI, Education & World Updates">
+<meta property="og:description" content="Stay updated with the latest news in AI, education, and global trends.">
+<meta property="og:type" content="website">
+<meta name='admaven-placement' content=Bqja8qTs9>
 
 <body>
   <header>
@@ -56,17 +60,17 @@
 
   <script>
     async function loadNews() {
-  const res = await fetch("data/News.json");
-  const news = await res.json();
+      const res = await fetch("data/News.json");
+      const news = await res.json();
 
-  // Sort by id (latest = highest id)
-  const sortedNews = news.sort((a, b) => b.id - a.id);
+      // Sort by id (latest = highest id)
+      const sortedNews = news.sort((a, b) => b.id - a.id);
 
-  const mainArticle = sortedNews[0];
-  const latestFour = sortedNews.slice(1, 5);
+      const mainArticle = sortedNews[0];
+      const latestFour = sortedNews.slice(1, 5);
 
-  // Main Article
-  document.getElementById("main-article").innerHTML = `
+      // Main Article
+      document.getElementById("main-article").innerHTML = `
     <h2>${mainArticle.title}</h2>
     <h3>${mainArticle.content_one}</h3>
     <img loading="lazy" src="${mainArticle.image_one}" alt="${mainArticle.title}">
@@ -82,11 +86,11 @@
         <div class="ad"></div>
   `;
 
- 
-  // News Boxes
-  const boxes = document.querySelector(".more-boxes");
-  latestFour.forEach(article => {
-    boxes.innerHTML += `
+
+      // News Boxes
+      const boxes = document.querySelector(".more-boxes");
+      latestFour.forEach(article => {
+        boxes.innerHTML += `
       <div class="box">
       <a href="${article.link}">
         <img src="${article.image_one}" alt="${article.title}">
@@ -95,10 +99,10 @@
         </a>
       </div>
     `;
-  });
-}
+      });
+    }
 
-loadNews();
+    loadNews();
   </script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SNJTKY1W9T"></script>
@@ -110,4 +114,5 @@ loadNews();
     gtag('config', 'G-SNJTKY1W9T');
   </script>
 </body>
+
 </html>
