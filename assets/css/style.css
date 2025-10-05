@@ -13,6 +13,12 @@
     .por{
       color: #fff;
     }
+    .nav-lk{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #111;
+    }
     nav {
       display: flex;
       justify-content: space-between;
@@ -111,8 +117,11 @@ body {
 }
 .dro{
   display: flex;
-    margin: 10px;
+  margin: 8px;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .container {
   display: block;
   max-width: 1000px;

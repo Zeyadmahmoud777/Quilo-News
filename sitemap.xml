@@ -9,6 +9,34 @@
   </url>
 
   <url>
+    <loc>https://zeyadmahmoud777.github.io/Quilo-News/index.html</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://zeyadmahmoud777.github.io/Quilo-News/sports.html</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>https://zeyadmahmoud777.github.io/Quilo-News/gaming.html</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://zeyadmahmoud777.github.io/Quilo-News/world.html</loc>
+    <lastmod>2025-09-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
     <loc>https://zeyadmahmoud777.github.io/Quilo-News/articals/article-11.html</loc>
     <lastmod>2025-09-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -39,6 +67,21 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://zeyadmahmoud777.github.io/Quilo-News/articals/article-16.html</loc>
+    <lastmod>2025-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+
+
+
+
+
+
+
+
 
   <url>
     <loc>https://zeyadmahmoud777.github.io/Quilo-News/about.html</loc>

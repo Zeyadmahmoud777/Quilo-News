@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
   <meta name="google-site-verification" content="nAH_Rn6pB0cJaAhiIqVQA3K1ZFslLZCrWyAYDqdGWmU" />
-<meta property="og:title" content="Quilo News - Latest Tech and World News">
+  <meta property="og:title" content="Quilo News - Latest Tech and World News">
 <meta property="og:image" content="https://zeyadmahmoud777.github.io/Quilo-News/assets/images/logo.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -68,54 +68,57 @@
       const res = await fetch("data/News.json");
       const news = await res.json();
 
-      // Sort by id (latest = highest id)
-      const sortedNews = news.sort((a, b) => b.id - a.id);
+      // 🔹 فلترة الأخبار لتكون من نوع "tech" فقط
+      const techNews = news.filter(article => article.category === "tech");
 
+      // 🔹 ترتيب الأخبار حسب الأحدث (id)
+      const sortedNews = techNews.sort((a, b) => b.id - a.id);
+
+      // 🔹 تحديد المقال الرئيسي وأحدث 4 مقالات بعده
       const mainArticle = sortedNews[0];
       const latestFour = sortedNews.slice(1, 5);
 
-      // Main Article
+      // 📰 عرض المقال الرئيسي
       document.getElementById("main-article").innerHTML = `
-    <h2>${mainArticle.title}</h2>
-    <h3>${mainArticle.content_one}</h3>
-    <img loading="lazy" src="${mainArticle.image_one}" alt="${mainArticle.title}">
-    <p>${mainArticle.content_one_p}</p>
-    <div class="ad"></div>
-    <h3>${mainArticle.content_two}</h3>
-  <img loading="lazy" src="${mainArticle.image_two}" alt="${mainArticle.title}">
-    <p>${mainArticle.content_two_p}</p>
-    <div class="ad"></div>
-    <h3>${mainArticle.content_three}</h3>
-  <img loading="lazy" src="${mainArticle.image_three}" alt="${mainArticle.title}">
-    <p>${mainArticle.content_three_p}</p>
+        <h2>${mainArticle.title}</h2>
+        <h3>${mainArticle.content_one}</h3>
+        <img loading="lazy" src="${mainArticle.image_one}" alt="${mainArticle.title}">
+        <p>${mainArticle.content_one_p}</p>
         <div class="ad"></div>
-  `;
+        <h3>${mainArticle.content_two}</h3>
+        <img loading="lazy" src="${mainArticle.image_two}" alt="${mainArticle.title}">
+        <p>${mainArticle.content_two_p}</p>
+        <div class="ad"></div>
+        <h3>${mainArticle.content_three}</h3>
+        <img loading="lazy" src="${mainArticle.image_three}" alt="${mainArticle.title}">
+        <p>${mainArticle.content_three_p}</p>
+        <div class="ad"></div>
+      `;
 
-
-      // News Boxes
+      // 🧱 عرض باقي الأخبار (آخر 4)
       const boxes = document.querySelector(".more-boxes");
       latestFour.forEach(article => {
         boxes.innerHTML += `
-      <div class="box">
-      <a href="${article.link}">
-        <img src="${article.image_one}" alt="${article.title}">
-        <h3>${article.title}</h3>
-        <p>${article.content_one_p.substring(0, 80)}...</p>
-        </a>
-      </div>
-    `;
+          <div class="box">
+            <a href="${article.link}">
+              <img src="${article.image_one}" alt="${article.title}">
+              <h3>${article.title}</h3>
+              <p>${article.content_one_p.substring(0, 80)}...</p>
+            </a>
+          </div>
+        `;
       });
     }
 
     loadNews();
   </script>
+  
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-SNJTKY1W9T"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-SNJTKY1W9T');
   </script>
 </body>
