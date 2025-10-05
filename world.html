@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quilo News - World</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/png">
+    <meta name="google-site-verification" content="nAH_Rn6pB0cJaAhiIqVQA3K1ZFslLZCrWyAYDqdGWmU" />
+    <meta property="og:title" content="Quilo News - Latest World News">
+    <meta property="og:image" content="assets/images/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:url" content="https://zeyadmahmoud777.github.io/Quilo-News/sports.html">
+    <meta name="description" content="Follow global news, world politics, and international events that shape our future.">
+    <meta name="keywords" content="world news, global, politics, international, economy, events">
+    <meta name="author" content="Quilo News">
+    <meta property="og:type" content="website">
+</head>
+
+<body>
+    <header>
+        <h1>Quilo News - World</h1>
+    </header>
+    <nav>
+        <a href="index.html">Tech</a>
+        <a href="sports.html">Sports</a>
+        <a href="gaming.html">Gaming</a>
+        <a href="world.html">World</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <article id="main-article"></article>
+        <aside id="sidebar">
+            <h3>More World News</h3>
+            <div id="sidebar-links"></div>
+        </aside>
+    </main>
+
+    <section class="latest-news">
+        <h2>Latest World Articles</h2>
+        <ul id="latest-news-list"></ul>
+    </section>
+
+    <section class="more-boxes" id="more-boxes"></section>
+
+    <footer>
+        <p>&copy; 2025 Quilo News. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        async function loadNews(category) {
+            const res = await fetch("data/News.json");
+            const news = await res.json();
+
+            const filteredNews = news
+                .filter(article => article.category === category)
+                .sort((a, b) => b.id - a.id);
+
+            if (filteredNews.length === 0) return;
+
+            const mainArticle = filteredNews[0];
+            const latestFour = filteredNews.slice(1, 5);
+
+            // Main Article
+            document.getElementById("main-article").innerHTML = `
+        <h2>${mainArticle.title}</h2>
+        <h3>${mainArticle.content_one}</h3>
+        <img loading="lazy" src="${mainArticle.image_one}" alt="${mainArticle.title}">
+        <p>${mainArticle.content_one_p}</p>
+        <h3>${mainArticle.content_two}</h3>
+        <img loading="lazy" src="${mainArticle.image_two}" alt="${mainArticle.title}">
+        <p>${mainArticle.content_two_p}</p>
+        <h3>${mainArticle.content_three}</h3>
+        <img loading="lazy" src="${mainArticle.image_three}" alt="${mainArticle.title}">
+        <p>${mainArticle.content_three_p}</p>
+      `;
+
+            // Sidebar
+            const sidebar = document.getElementById("sidebar-links");
+            sidebar.innerHTML = "";
+            latestFour.forEach(article => {
+                sidebar.innerHTML += `
+          <div class="boxsid">
+            <a href="${article.link}">
+              <img src="${article.image_one}" alt="${article.title}">
+              <p>${article.title.substring(0, 80)}...</p>
+            </a>
+          </div>`;
+            });
+
+            // More boxes
+            const boxes = document.querySelector(".more-boxes");
+            boxes.innerHTML = "";
+            latestFour.forEach(article => {
+                boxes.innerHTML += `
+          <div class="box">
+            <a href="${article.link}">
+              <img src="${article.image_one}" alt="${article.title}">
+              <h3>${article.title}</h3>
+              <p>${article.content_one_p.substring(0, 80)}...</p>
+            </a>
+          </div>`;
+            });
+        }
+
+        // استدعاء الفئة المحددة (هنا رياضة)
+        loadNews("world");
+    </script>
+</body>
+
+</html>
